@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Projects</title>
+    <link rel="stylesheet" href="style1.css">
+    <style>
+        .project-links a:hover {
+    background-color:  #64ffda; 
+} 
+.project-card:hover {
+        transform: scale(1.1);
+        }
+
+nav {
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 15px 0;
+            width: 100%;
+            text-align: right;
+            position: fixed;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav a {
+            color: #64ffda; /* Vibrant accent color */
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: rgba(6, 10, 10, 0.1);
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <nav class="button" style="display: flex;justify-content: flex-end ; gap:20px; ">
+        <a href="index.html"target="_self">Home</a>
+        <a href="about1.html" target="_self" >About</a>
+        <a href="Project.html" target="_self">Projects</a>
+        <a href="skilla.html" target="_self">Skills</a>
+        <a href="Contactme.html" target="_self"> Contact me</a>
+        
+       </nav>
+    <div class="projects-container">
+        <div class="project-card" >
+            <div class="project-image">
+                <img src="project1.image.png" alt="Calculator App">
+            </div>
+            <div class="project-details">
+                <h2>Calculator App</h2>
+                
+                <div class="project-links">
+                    <a href="https://kumudahasini.github.io/my-website/" class="view-live">View Live</a>
+                    <a href="https://github.com/kumudahasini/my-website" class="view-code">View Code</a>
+                </div>
+            </div>
+        </div>
+        <div class="project-card" style="height: 350px;">
+            <div class="project-image">
+                <img src="cd.jpg" alt="To Do List">
+            </div>
+            <div class="project-details">
+                <h2>CountDown Timer</h2>
+                
+                <div class="project-links">
+                    <a href="https://kumudahasini.github.io/countdown-timer/" class="view-live">View Live</a>
+                    <a href="https://github.com/kumudahasini/countdown-timer" class="view-code">View Code</a>
+                </div>
+            </div>
+        </div>
+        </div>
+</body>
+</html>
